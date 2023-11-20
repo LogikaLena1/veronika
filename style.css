@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-image: url(https://img.freepik.com/free-photo/bright-background-with-stars_1048-3732.jpg?w=740&t=st=1698852633~exp=1698853233~hmac=896cfb9ab342d42a2df21ec9fa982ccc886f7df9c29954041e7fd8fa0d6ccc26);
+    background-size:cover ;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #799799;
+    font-weight: bolder;
+}
+aside{
+    position: fixed;
+    color: rgb(255, 255, 255);
+background-color: #C6D4E0;
+right: -55px;
+top: 250px;
+width: 150px;
+padding:15px;
+border-radius: 20px;
+}
+.discount{
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    width: 80px;
+}
+.address::before{
+content: url(https://i.ibb.co/0ht3w3N/image-2.png);
+}
+.tel::before{
+    content: url(https://i.ibb.co/Ykv4t7n/image-2-1.png);
+}
+.nav-link:hover{
+color:#B0D4D6 ;
+text-decoration: underline #B0D4D6;
+}
+.article-but:hover{
+background: rgb(11,0,36);
+padding: 13px 78px 13px 78px;
+background: linear-gradient(90deg, rgba(11,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,255,162,1) 100%)
+}
